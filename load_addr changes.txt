@@ -1,0 +1,9 @@
+readrd: Rn queued on data address
+	load_Addr = 0
+
+loadMOVReg: load_addr = 1
+
+writeAddress: Rd on datapathout
+	load_Addr = 0
+
+Next clk:  Rd stuck in data address

@@ -1,0 +1,50 @@
+C:/Users/james/OneDrive/Desktop/lab7/datapath.v {1 {vlog -work work -stats=none C:/Users/james/OneDrive/Desktop/lab7/datapath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} C:/Users/james/OneDrive/Desktop/lab7/lab7_top.v {1 {vlog -work work -stats=none C:/Users/james/OneDrive/Desktop/lab7/lab7_top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab7_top
+-- Compiling module RAM
+
+Top level modules:
+	lab7_top
+
+} {} {}} C:/Users/james/OneDrive/Desktop/lab7/cpu.v {1 {vlog -work work -stats=none C:/Users/james/OneDrive/Desktop/lab7/cpu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cpu
+-- Compiling module vDFF
+-- Compiling module vDFFE
+-- Compiling module resetMux
+-- Compiling module PC
+-- Compiling module PCMux
+-- Compiling module vDFF9
+
+Top level modules:
+	cpu
+
+} {} {}} C:/Users/james/OneDrive/Desktop/lab7/shifter.v {1 {vlog -work work -stats=none C:/Users/james/OneDrive/Desktop/lab7/shifter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} C:/Users/james/OneDrive/Desktop/lab7/alu.v {1 {vlog -work work -stats=none C:/Users/james/OneDrive/Desktop/lab7/alu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/james/OneDrive/Desktop/lab7/regfile.v {1 {vlog -work work -stats=none C:/Users/james/OneDrive/Desktop/lab7/regfile.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}}

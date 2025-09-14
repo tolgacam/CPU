@@ -1,0 +1,355 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Quartus
+vaddrMux
+!s110 1638145480
+!i10b 1
+!s100 FeQB20Fi2Q61iB2oGKk?j1
+I2@c819o29:zW:WW;NfJgV0
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/james/OneDrive/Desktop/lab7
+w1638145479
+Z2 8C:/Users/james/OneDrive/Desktop/lab7/cpu.v
+Z3 FC:/Users/james/OneDrive/Desktop/lab7/cpu.v
+L0 383
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1638145480.000000
+Z5 !s107 C:/Users/james/OneDrive/Desktop/lab7/cpu.v|
+Z6 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/james/OneDrive/Desktop/lab7/cpu.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+naddr@mux
+vALU
+Z9 !s110 1638475691
+!i10b 1
+!s100 gJm1[dU]_67A@Q0hXjDZZ0
+IO]dlijiQ0gU<4NWZFgT?:1
+R0
+R1
+w1638171225
+8C:/Users/james/OneDrive/Desktop/lab7/alu.v
+FC:/Users/james/OneDrive/Desktop/lab7/alu.v
+L0 6
+R4
+r1
+!s85 0
+31
+Z10 !s108 1638475691.000000
+!s107 C:/Users/james/OneDrive/Desktop/lab7/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/james/OneDrive/Desktop/lab7/alu.v|
+!i113 1
+R7
+R8
+n@a@l@u
+vcpu
+Z11 !s110 1638475690
+!i10b 1
+!s100 EP1W@>22<Em_zTcH^mVQ^2
+Injf8I`hedniAXRWYgi?Nm2
+R0
+R1
+Z12 w1638166579
+R2
+R3
+L0 1
+R4
+r1
+!s85 0
+31
+Z13 !s108 1638475690.000000
+R5
+R6
+!i113 1
+R7
+R8
+vdatapath
+R9
+!i10b 1
+!s100 ;fDER<@:3L7MTE8:P>ob@2
+IinX63TZEcPQejD1Jl;_eK1
+R0
+R1
+w1638147646
+8C:/Users/james/OneDrive/Desktop/lab7/datapath.v
+FC:/Users/james/OneDrive/Desktop/lab7/datapath.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/james/OneDrive/Desktop/lab7/datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/james/OneDrive/Desktop/lab7/datapath.v|
+!i113 1
+R7
+R8
+vlab7_check_tb
+!s110 1638167975
+!i10b 1
+!s100 3nWUiCm;R9M@WRSO;57FW2
+ICKE1S>Tj@fgfe12WO8i:>2
+R0
+R1
+w1638167913
+8C:/Users/james/OneDrive/Desktop/lab7/lab7_autograder_check.v
+FC:/Users/james/OneDrive/Desktop/lab7/lab7_autograder_check.v
+L0 7
+R4
+r1
+!s85 0
+31
+!s108 1638167975.000000
+!s107 C:/Users/james/OneDrive/Desktop/lab7/lab7_autograder_check.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/james/OneDrive/Desktop/lab7/lab7_autograder_check.v|
+!i113 1
+R7
+R8
+vlab7_top
+R9
+!i10b 1
+!s100 gWeQZecHDQXCzzQcg3@b>2
+I]I70O1Oi3RYOY<^`[WiV21
+R0
+R1
+Z14 w1638168009
+Z15 8C:/Users/james/OneDrive/Desktop/lab7/lab7_top.v
+Z16 FC:/Users/james/OneDrive/Desktop/lab7/lab7_top.v
+L0 5
+R4
+r1
+!s85 0
+31
+R10
+Z17 !s107 C:/Users/james/OneDrive/Desktop/lab7/lab7_top.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/james/OneDrive/Desktop/lab7/lab7_top.v|
+!i113 1
+R7
+R8
+vlab7top_tb1
+R9
+!i10b 1
+!s100 G9GQhKffmXAlm];z_4:4D3
+IVS[>i5PYbH?5616cmYalT3
+R0
+R1
+w1638173505
+8C:/Users/james/OneDrive/Desktop/lab7/lab7_top_tb1.v
+FC:/Users/james/OneDrive/Desktop/lab7/lab7_top_tb1.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/james/OneDrive/Desktop/lab7/lab7_top_tb1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/james/OneDrive/Desktop/lab7/lab7_top_tb1.v|
+!i113 1
+R7
+R8
+vPC
+R11
+!i10b 1
+!s100 ?fMo0dQShXGhcKha>abfQ2
+Ii4Jejg54z8IHo1>j]57Zi0
+R0
+R1
+R12
+R2
+R3
+L0 506
+R4
+r1
+!s85 0
+31
+R13
+R5
+R6
+!i113 1
+R7
+R8
+n@p@c
+vPCMux
+R11
+!i10b 1
+!s100 3ki:4cf6WcoaHdflShMH52
+IJ@m1Dbl622;=>^V^i^0^@0
+R0
+R1
+R12
+R2
+R3
+L0 519
+R4
+r1
+!s85 0
+31
+R13
+R5
+R6
+!i113 1
+R7
+R8
+n@p@c@mux
+vRAM
+R9
+!i10b 1
+!s100 J]gePPbCQ^YPHFYM^Q6mK3
+IYn3UJ_R`hI>NLg9:`f5dM1
+R0
+R1
+R14
+R15
+R16
+L0 102
+R4
+r1
+!s85 0
+31
+R10
+R17
+R18
+!i113 1
+R7
+R8
+n@r@a@m
+vregfile
+R9
+!i10b 1
+!s100 [J5NzJWBc_Sm9n6ZeIB^@2
+Idaog0X^neo@A=a6`OC5TF2
+R0
+R1
+w1638147693
+8C:/Users/james/OneDrive/Desktop/lab7/regfile.v
+FC:/Users/james/OneDrive/Desktop/lab7/regfile.v
+L0 11
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/james/OneDrive/Desktop/lab7/regfile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/james/OneDrive/Desktop/lab7/regfile.v|
+!i113 1
+R7
+R8
+vresetMux
+R11
+!i10b 1
+!s100 KY0W3VX^G1>ZSmf3S?DEd2
+I>WYd@z?0b4YCTj60KZGzf0
+R0
+R1
+R12
+R2
+R3
+L0 496
+R4
+r1
+!s85 0
+31
+R13
+R5
+R6
+!i113 1
+R7
+R8
+nreset@mux
+vshifter
+R9
+!i10b 1
+!s100 @=mVC<kki`on_<mDI3U[V1
+IeXAKhZoB;L9ncn3@ORJV72
+R0
+R1
+w1637981754
+8C:/Users/james/OneDrive/Desktop/lab7/shifter.v
+FC:/Users/james/OneDrive/Desktop/lab7/shifter.v
+L0 6
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/james/OneDrive/Desktop/lab7/shifter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/james/OneDrive/Desktop/lab7/shifter.v|
+!i113 1
+R7
+R8
+vvDFF
+R11
+!i10b 1
+!s100 UXERd_UDdW9PZNmWnK`UM0
+IefToIB8e]n[aYC`^Q4PgN0
+R0
+R1
+R12
+R2
+R3
+L0 469
+R4
+r1
+!s85 0
+31
+R13
+R5
+R6
+!i113 1
+R7
+R8
+nv@d@f@f
+vvDFF9
+R11
+!i10b 1
+!s100 4N:I0:_5zVGofUbTRe[Dc0
+IkH5X4;B1;_HPaZFCg@]LJ2
+R0
+R1
+R12
+R2
+R3
+L0 528
+R4
+r1
+!s85 0
+31
+R13
+R5
+R6
+!i113 1
+R7
+R8
+nv@d@f@f9
+vvDFFE
+R11
+!i10b 1
+!s100 YDKJe;@Ghfd<YkMQIKh:f0
+Ik[FeKFz;[DoVB?gBc1XcQ3
+R0
+R1
+R12
+R2
+R3
+L0 480
+R4
+r1
+!s85 0
+31
+R13
+R5
+R6
+!i113 1
+R7
+R8
+nv@d@f@f@e

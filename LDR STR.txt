@@ -1,0 +1,72 @@
+LDR:
+
+decode:
+	go to Geta
+geta:
+	get Rn
+	go to addsxim5
+
+sxim5:
+	add with sxim5
+	go to readAddress
+	data_out is updated at this point
+		data address has value of [R[Rn] + sx(im5)
+	load_addr = 1
+	mem_cmd = `MREAD
+readAddress:
+	address in data address passed to mem_Addr
+	RAM reads the data at address R[Rn] + sx(im5) in data.txt
+	go to writeReg
+writeReg:
+	read_data updated
+	mdata updated
+	vsel = mdata
+	write = 1
+	writenum = Rd
+
+	Rd = mdata = M [R[Rn] + sx(im5)] on next clk cycle
+
+STR:
+decode:
+	go to getA
+getA: 
+	get Rn
+	go to addsxim5
+sxim5:
+	add with sxim5
+	go to readRd
+	data_out is updated after this point
+		data address will have value of [R[Rn] + sx(im5)
+	load_addr = 0
+	loadc = 1
+	mem_cmd = `MNONE
+
+	//for reading from Rd:
+	read = 1
+	readnum = Rd
+readRd:		//This is similar to `getMOVReg
+	data_out updated
+	address in data address stored in Data Address but not passed out for now
+	loada = 0
+	loadb = 1
+	go to loadMOVReg (the preexisting one)
+loadMOVReg:
+	//this state is already madae
+	//after this state, all the combinational logic using datapath_out
+	//is updated
+	go to writeAddress
+		need to add an if statement for this transition
+		in that if statement include:
+			load_addr = 1
+			mem_cmd = `MWRITE
+			addr_sel = 0
+
+writeAddress:
+	Rd on datapath_out
+	RAM first cycle
+	write now equals 1
+	revert everything that IF1 doesn't revert
+
+IF1: 
+	M[R[Rn]+sx(im5)] = R[Rd] in memory
+	LEDRs also updated
